@@ -60,12 +60,12 @@ dependencies {
 	implementation 'org.apache.logging.log4j:log4j-core:2.23.1'
 	implementation "com.google.code.gson:gson:2.10.1"
 	implementation "com.google.guava:guava:33.2.1-jre"
-	modImplementation files('depLibs/ornithe-standard-libraries-0.20.3/osl-core-0.9.0+mca1.0.1_01-mc14w26c.jar')
-	modImplementation files('depLibs/ornithe-standard-libraries-0.20.3/osl-entrypoints-0.6.1+mca1.0.1_01-mc1.5.2.jar')
-	modImplementation files('depLibs/ornithe-standard-libraries-0.20.3/osl-branding-0.4.3+mca1.0.1_01-mca1.2.1_01.jar')
-	modImplementation files('depLibs/ornithe-standard-libraries-0.20.3/osl-lifecycle-events-0.6.1+mca1.0.1_01-mca1.2.6.jar')
+	modImplementation files('depLib/ornithe-standard-libraries-0.20.3/osl-core-0.9.0+mca1.0.1_01-mc14w26c.jar')
+	modImplementation files('depLib/ornithe-standard-libraries-0.20.3/osl-entrypoints-0.6.1+mca1.0.1_01-mc1.5.2.jar')
+	modImplementation files('depLib/ornithe-standard-libraries-0.20.3/osl-branding-0.4.3+mca1.0.1_01-mca1.2.1_01.jar')
+	modImplementation files('depLib/ornithe-standard-libraries-0.20.3/osl-lifecycle-events-0.6.1+mca1.0.1_01-mca1.2.6.jar')
 
-	modImplementation files('depLibs/cypress_lib_core-0.1+mca1.0.16.05_20.jar')
+	modImplementation files('depLib/cypress_lib_core-0.1+mca1.0.16.05_20.jar')
 
 	minecraft "com.mojang:minecraft:${project.minecraft_version}"
 	modImplementation "net.fabricmc:fabric-loader:${project.loader_version}"
