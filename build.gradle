@@ -2,17 +2,17 @@ buildscript {
     repositories {
         mavenCentral()
         flatDir {
-            dirs 'depLibs'
+            dirs 'depLib'
         }
     }
     dependencies {
-		classpath files('depLibs/ploceus-1.17.local.jar')
-		classpath files('depLibs/signature-changer-1.0.0.jar')
-		classpath files('depLibs/mapping-utils-0.19.2.jar')
-		classpath files('depLibs/nester-1.4.0.jar')
-		classpath files('depLibs/exceptor-1.1.0.jar')
-		classpath files('depLibs/preen-1.1.0.jar')
-		classpath files('depLibs/condor-1.4.5.jar')
+		classpath files('depLib/ploceus-1.17.local.jar')
+		classpath files('depLib/signature-changer-1.0.0.jar')
+		classpath files('depLib/mapping-utils-0.19.2.jar')
+		classpath files('depLib/nester-1.4.0.jar')
+		classpath files('depLib/exceptor-1.1.0.jar')
+		classpath files('depLib/preen-1.1.0.jar')
+		classpath files('depLib/condor-1.4.5.jar')
 		classpath 'com.vdurmont:semver4j:3.1.0'
     }
 }
