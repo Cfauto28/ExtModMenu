@@ -1,0 +1,2 @@
+classTweaker  v1  named
+transitive-accessible method ext/client/gui/screen/GuiExtensions buttonClicked (Lnet/minecraft/client/gui/widget/ButtonWidget;)V

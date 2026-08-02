@@ -25,10 +25,10 @@
 	"depends": {
 		"fabricloader": ">=0.14.21",
 		"minecraft": "1.0.0-alpha.1.0.16.5.20",
-    "osl-entrypoints": "*",
-    "cypress_lib_core": "*"
+        "osl-entrypoints": "*",
+        "cypress_lib_core": "*"
 	},
-  "recommends": {
-    "osl-branding": "*"
-  }
+    "recommends": {
+        "osl-branding": "*"
+    }
 }
