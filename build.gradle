@@ -12,7 +12,7 @@ buildscript {
 		classpath files('depLib/nester-1.4.0.jar')
 		classpath files('depLib/exceptor-1.1.0.jar')
 		classpath files('depLib/preen-1.1.0.jar')
-		classpath files('depLib/condor-1.4.5.jar')
+		classpath files('depLib/condor-1.4.6.jar')
 		classpath 'com.vdurmont:semver4j:3.1.0'
     }
 }
