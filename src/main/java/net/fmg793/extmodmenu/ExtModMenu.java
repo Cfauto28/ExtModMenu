@@ -25,7 +25,7 @@ public class ExtModMenu implements ClientModInitializer {
 			return "LIBRARY";
 		} else if (mod.startsWith("Minecraft")) {
 			return "CLIENT";
-		} else if (mod.startsWith("Java")) {
+		} else if (mod.startsWith("Java") || mod.startsWith("OpenJDK") || mod.startsWith("Eclipse")) {
 			return "RUNTIME";
 		}
 		return "MOD";
